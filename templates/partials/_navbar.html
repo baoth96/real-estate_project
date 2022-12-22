@@ -20,7 +20,7 @@
                     <a class="nav-link" href="{% url 'index' %}">Home</a>
                 </li>
                 <li 
-                    {% if 'about' in requset.path %}
+                    {% if 'about' in request.path %}
                         class="nav-item active mr-3"
                     {% else %}
                         class="nav-item mr-3"
@@ -29,7 +29,7 @@
                     <a class="nav-link" href="{% url 'about' %}">About</a>
                 </li>
                 <li 
-                    {% if 'listings' in requset.path %}
+                    {% if 'listings' in request.path %}
                         class="nav-item active mr-3"
                     {% else %}
                         class="nav-item mr-3"
@@ -41,7 +41,7 @@
 
             <ul class="navbar-nav ml-auto">
                 <li
-                    {% if 'register' in requset.path %}
+                    {% if 'register' in request.path %}
                         class="nav-item active mr-3"
                     {% else %}
                         class="nav-item mr-3"
@@ -51,7 +51,7 @@
                     <i class="fas fa-user-plus"></i> Register</a>
                 </li>
                 <li
-                    {% if 'login' in requset.path %}
+                    {% if 'login' in request.path %}
                         class="nav-item active mr-3"
                     {% else %}
                         class="nav-item mr-3"
