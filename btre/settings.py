@@ -146,6 +146,14 @@ MESSAGE_TAGS = {
 }
 
 
+# Email config
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'vipronbk@gmail.com'
+EMAIL_HOST_PASSWORD = '01665152002'
+EMAIL_USE_TLS = True
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
