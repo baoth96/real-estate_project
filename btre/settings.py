@@ -150,7 +150,7 @@ MESSAGE_TAGS = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'vipronbk@gmail.com'
-EMAIL_HOST_PASSWORD = '01665152002'
+EMAIL_HOST_PASSWORD = 'gjbeiivttjdewqez'
 EMAIL_USE_TLS = True
 
 
